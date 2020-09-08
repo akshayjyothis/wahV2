@@ -1,0 +1,229 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light\ Italic.otf);
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold\ Italic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold.otf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Ker';
+    src: url('../fonts/Keraleeyam-Regular.woff') format('woff'),
+         url('../fonts/Keraleeyam-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Ver';
+    src: url('../fonts/verabi.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    display: flex;
+}
+
+.left-panel{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    background-color: #5ca54b;
+}
+
+.right-panel{
+    margin: 2%;
+    width: 80%;
+}
+
+.logo{
+    width: 150px;
+    margin: 25px 0 75px 0;
+    padding: 35px;
+}
+
+.nav-items li{
+    list-style: none;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-family: Axiforma;
+}
+
+#facebook-logo img{
+    width: 30px;
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Title{
+    font-family: Ver;
+    font-size: 10vh;
+    color: #5ca54b;
+}
+
+.contents h2{
+    font-family: Ker;
+    background-color: #5ca54b;
+    color: white;
+    margin: 0.5%;
+    margin-left: 0;
+    margin-right: 2%;
+    padding: 10px 90px 10px 60px;
+    width: max-content;
+    font-size: vh;
+    font-stretch: 10px;
+    letter-spacing: 1px;
+    font-weight: 1;
+}
+
+hr{
+    color: #5ca54b;
+}
+
+.Semi{
+    
+    font-family: Ker;
+    color: #434343;
+    font-weight: 1;
+    letter-spacing: .5px;
+    font-size: 6vh;
+    text-align: left;
+    
+}
+
+.SubSemi{
+    
+    font-family: Ker;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: left;
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    .Semi{
+    
+        font-family: Ker;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 4vh;
+        text-align: left;
+        
+    }
+    
+    .SubSemi{
+        
+        font-family: Ker;
+        color: #5ca54b;
+        font-weight: 1;
+        letter-spacing: 1px;
+        font-size: 3vh;
+        text-align: left;
+        
+        
+}
+.Title{
+    font-family: Ver;
+    font-size: 8vh;
+color: #5ca54b;
+}
+
+}
+@media screen and (max-width:768px){
+
+    .Semi{
+    
+        font-family: Ker;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 4vh;
+        text-align: left;
+        
+    }
+    
+    .SubSemi{
+        
+        font-family: Ker;
+        color: #5ca54b;
+        font-weight: 1;
+        letter-spacing: 1px;
+        font-size: 3vh;
+        text-align: left;
+        
+        
+}
+.Title{
+    font-family: Ver;
+    font-size: 8vh;
+color: #5ca54b;
+}
+
+.contents h2{
+    font-family: Ker;
+background-color: #5ca54b;
+color: white;
+margin: 0.5%;
+    margin-left: 0.5%;
+margin-left: 0;
+padding: 10px;
+width: max-content;
+font-size: vh;
+font-stretch: 10px;
+letter-spacing: 1px;
+font-weight: 1;
+}
+
+}
+
+
