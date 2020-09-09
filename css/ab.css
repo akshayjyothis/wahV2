@@ -203,10 +203,9 @@ hr{
         
         
 }
+
 .Title{
-    font-family: Ver;
-    font-size: 8vh;
-color: #5ca54b;
+    display: none;
 }
 
 
