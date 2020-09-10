@@ -181,10 +181,18 @@ display: none;
     
 }
 
+.whole{
+    margin-left: 0;
+}
 
 
 @media screen and (max-width:768px){
 
+    .whole{
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    
     .Semi{
     
         font-family: Ker;
@@ -216,7 +224,7 @@ display: none;
         justify-content: space-between;
         width: 100%;
         padding: 1%;
-        height: 13%;
+        height: 100px;
         overflow: hidden;
         position: fixed;
         top: 0;
