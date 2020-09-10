@@ -40,6 +40,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Mer';
+    src: url('../fonts/Meera-Regular.woff') format('woff'),
+    url('../fonts/Meera.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face{
     font-family: 'Ver';
@@ -54,71 +61,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.section{
-    display: flex;
-}
-
-.left-panel{
-    display: grid;
-    position: fixed;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    width: 20%;
-    background-color: #5ca54b;
-    height: 110vh;
-}
-
-.right-panel{
-    background-color: white;
-    margin: 2%;
-    margin-left: 22%;
-    width: 80%;
-    height: 92vh;;
-}
-
-.logo{
-    width: 150px;
-    margin: 25px 0 75px 0;
-    padding: 35px;
-}
-
-.nav-items li{
-    list-style: none;
-    border-top: 1px solid white;
-    padding: 10px;
-}
-
-.nav-items li a{
-    text-decoration: none;
-    color: white;
-    font-family: Axiforma;
-}
-
-.burger{
-    display: none;
-    cursor: pointer;
-}
-
-.burger div{
-  width: 33px;
-  height: 4px;
-  margin-bottom: 8.3px;
-  margin-right: 9px;
-  position: relative;
-  background-color: white;
-  border-radius: 3px;
-}
-
-#facebook-logo img{
-    width: 30px;
-}
-
-.contents{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .Title{
@@ -168,17 +110,26 @@ hr{
     text-align: left;
     
 }
-.linem{
-display: none;
-}
 
-.logo-mob{
-    display: none;
-}
-
-.bottom{
-   display: none;
+.SubSemi-M{
     
+    font-family: Ker;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 5vh;
+    text-align: left;
+    font-style: italic;
+    
+}
+
+
+
+
+.data{
+    font-family: Mer;
+    color: #434343;
+    font-size: 20px;
 }
 
 
@@ -206,88 +157,19 @@ display: none;
         text-align: left;         
     }   
 
-    .section{
-        display: block;
-    }
 
-    .left-panel{
-        display: flex;
-        align-self: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 1%;
-        height: 13%;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-    }
+.SubSemi-M{
+    
+    font-family: Ker;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 4vh;
+    text-align: left;
+    font-style: italic;
+    
+}
 
-    .right-panel{
-        margin-top: 80px;
-        margin-left: 2%;
-    }
-
-    .logo{
-        margin: 0;
-        max-width: 100%;
-        width: 80px;
-        height: 61px;
-        padding: 0;
-        margin-top: 15px;
-        margin-left: 20px;
-    }
-
-    #facebook-logo{
-        display: none;
-    }
-
-    .nav-items{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 20vh;
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top: 5%;
-    }
-
-    .nav-items li{
-        border: 0;
-    }
-
-    .logo-mob {
-        display: flex;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 20px;
-        top: 50%;
-    }
-
-    .logo-fb img{
-        width: 30px;
-        height: 30px;
-        align-self: center;
-        margin-right: 15px;
-        max-width: 100%;
-    }
-
-    .burger{
-        display: block;
-
-    }
-
-    .toggle .line1 {
-        transform: rotate(-45deg) translate(-18px, 4px);
-        
-    }
-    .toggle .line2 {
-        transform: rotate(45deg) translate(-4px, 8px);
-    }
-    .toggle .line3 {
-        display: none;
-    }
 
     .Title{
         display: none;
@@ -323,11 +205,12 @@ display: none;
         margin-left: 0;
         padding: 10px;
         width: max-content;
-        font-size: 2.5vh;
+        font-size: 23px;
         font-stretch: 10px;
         letter-spacing: 1px;
         font-weight: 1;
         border-radius: 10px;
+        margin-top: 20px;
     }
         
     .linew{
@@ -339,37 +222,12 @@ display: none;
         width: 80%;
     }
     
-    .nav-active{
-        display: flex;
-    }
-
-    .active{
-        display: none;
-    }
 
     .mob-view{
         background-color: #5ca54b;
     }
 
-    .bottom{
-        display: block;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        left: 0 color green;
-        font-family: Axiforma;
-        background: #5ca54b;
-        width: 100%;
-        overflow: scroll;
-        padding: 10px;
-        overflow: auto;
-        white-space: nowrap;
-    }
-    .base{
-        color: white;
-        text-decoration: none; 
-        padding: 8px;
-    }
+    
 
     .position{
         position: static;
