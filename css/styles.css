@@ -56,6 +56,27 @@
     box-sizing: border-box;
 }
 
+#pre-loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pre-hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 .section{
     display: flex;
 }
@@ -94,7 +115,7 @@
 .nav-items li a{
     text-decoration: none;
     color: white;
-    font-family: Axiforma;
+    font-family: Ker;
 }
 
 .burger{
@@ -112,8 +133,29 @@
   border-radius: 3px;
 }
 
+#facebook-logo{
+    display: flex;
+}
+
+.login {
+    background-color: #5ca54b;
+    text-decoration: none;
+    font-family: Axiforma;
+    text-align: center;
+    margin-left: 10px;
+    padding: 3px 10px 0px 10px;
+    display: none;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+
 #facebook-logo img{
     width: 30px;
+    height: 30px;
 }
 
 .contents{
@@ -266,6 +308,12 @@ display: none;
         border: 0;
     }
 
+    .login{
+        padding: 5px 10px 0px 10px;
+        display: flex;
+    }
+
+
     .logo-mob {
         display: flex;
         text-align: center;
@@ -366,13 +414,14 @@ display: none;
         position: fixed;
         bottom: 0;
         left: 0 color green;
-        font-family: Axiforma;
+        font-family: Ker;
         background: #5ca54b;
         width: 100%;
         overflow: scroll;
         padding: 10px;
         overflow: auto;
         white-space: nowrap;
+        font-size: 20px;
     }
     .base{
         color: white;
@@ -385,6 +434,11 @@ display: none;
     }
 }
 
-
-
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #5ca54b;
+}
 

@@ -18,3 +18,40 @@ const navSlide = () => {
 };
 
 navSlide();
+
+const hour = document.querySelector('.SubSemi-G');
+
+var today = new Date()
+var timeHour = today.getHours();
+var timeMin = today.getMinutes();
+
+// var timeHour = 7;
+// var timeMin = 29;
+// console.log(timeHour);
+// console.log(timeMin);
+
+if (timeHour >= 8 && timeHour <=21){
+    hour.innerHTML = "You can call us now.";
+}
+
+else if (timeHour >=7 && timeHour <= 8){
+    if(timeMin >=30 ){
+        hour.innerHTML = "You can call us now.";
+    }   
+    else{
+        hour.innerHTML = "Call us between 7.30am - 10.30pm";
+    } 
+}
+
+else if (timeHour >=21 && timeHour <= 22){
+    if(timeMin >=30 ){
+        hour.innerHTML = "You can call us now.";
+    }
+    else{
+        hour.innerHTML = "Call us between 7.30am - 10.30pm";
+    }
+}
+
+else{
+    hour.innerHTML = "Call us between 7.30am - 10.30pm";
+}

@@ -85,6 +85,7 @@
     padding: 35px;
 }
 
+
 .nav-items li{
     list-style: none;
     border-top: 1px solid white;
@@ -94,8 +95,9 @@
 .nav-items li a{
     text-decoration: none;
     color: white;
-    font-family: Axiforma;
+    font-family: Ker;
 }
+
 
 .burger{
     display: none;
@@ -112,8 +114,26 @@
   border-radius: 3px;
 }
 
-#facebook-logo img{
+#facebook-logo{
+    display: flex;
+}
+
+#facebook-logo img {
     width: 30px;
+}
+
+.login {
+    background-color: #5ca54b;
+    text-decoration: none;
+    font-family: Axiforma;
+    text-align: center;
+    margin-left: 10px;
+    padding: 3px 10px 0px 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
 }
 
 .logo-mob{
@@ -157,6 +177,10 @@
         padding: 0;
         margin-top: 15px;
         margin-left: 20px;
+    }
+
+    .login{
+        padding: 5px 10px 0px 10px;
     }
 
     #facebook-logo{
@@ -229,13 +253,14 @@
         position: fixed;
         bottom: 0;
         left: 0 color green;
-        font-family: Axiforma;
+        font-family: Ker;
         background: #5ca54b;
         width: 100%;
         overflow: scroll;
         padding: 10px;
         overflow: auto;
         white-space: nowrap;
+        font-size: 20px;
     }
     .base{
         color: white;
