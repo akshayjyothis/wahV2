@@ -36,7 +36,6 @@
 @font-face {
     font-family: 'Ker';
     src: url('../fonts/Keraleeyam-Regular.woff') format('woff'),
-         url('../fonts/Keraleeyam-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

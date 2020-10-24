@@ -36,7 +36,6 @@
 @font-face {
     font-family: 'Ker';
     src: url('../fonts/Keraleeyam-Regular.woff') format('woff'),
-         url('../fonts/Keraleeyam-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,27 +53,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-#pre-loader{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.pre-hide{
-    display: none;
-}
-
-.show{
-    display: block;
 }
 
 .section{
