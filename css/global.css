@@ -1,41 +1,8 @@
-@font-face{
-    font-family: 'Axiforma';
-    src: url(../fonts/Axiforma\ Light.otf);
-    font-style: normal;
-    font-weight: 200;
-}
 
-@font-face{
-    font-family: 'Axiforma';
-    src: url(../fonts/Axiforma\ Light\ Italic.otf);
-    font-style: italic;
-    font-weight: 200;
-}
-
-@font-face{
-    font-family: 'Axiforma';
-    src: url(../fonts/Axiforma\ Bold\ Italic.otf);
-    font-style: italic;
-    font-weight: 600;
-}
-
-@font-face{
-    font-family: 'Axiforma';
-    src: url(../fonts/Axiforma\ Thin.otf);
-    font-style: normal;
-    font-weight: 100;
-}
-
-@font-face{
-    font-family: 'Axiforma';
-    src: url(../fonts/Axiforma\ Bold.otf);
-    font-style: normal;
-    font-weight: 600;
-}
 
 @font-face {
     font-family: 'Ker';
-    src: url('../fonts/Keraleeyam-Regular.woff') format('woff'),
+    src: url('../fonts/Keraleeyam-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
