@@ -1,11 +1,9 @@
+@import url('https://smc.org.in/fonts/keraleeyam.css'); 
+    html { 
+        font-family: 'Keraleeyam', sans-serif; 
+    } 
 
 
-@font-face {
-    font-family: 'Ker';
-    src: url('../fonts/Keraleeyam-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face{
     font-family: 'Ver';
@@ -61,7 +59,7 @@
 .nav-items li a{
     text-decoration: none;
     color: white;
-    font-family: Ker;
+    font-family: Keraleeyam;
 }
 
 
@@ -219,7 +217,7 @@
         position: fixed;
         bottom: 0;
         left: 0 color green;
-        font-family: Ker;
+        font-family: Keraleeyam;
         background: #5ca54b;
         width: 100%;
         overflow: scroll;

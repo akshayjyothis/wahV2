@@ -1,17 +1,12 @@
 
+@import url('https://smc.org.in/fonts/keraleeyam.css'); 
+html { 
+    font-family: 'Keraleeyam', sans-serif; 
+} 
 
-@font-face {
-    font-family: 'Ker';
-    src:url('../fonts/Keraleeyam-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Mer';
-    src: url('../fonts/Meera-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://smc.org.in/fonts/meera.css'); html { font-family: 'Meera', sans-serif; } 
+
+
 
 @font-face{
     font-family: 'Ver';
@@ -35,7 +30,7 @@
 }
 
 .contents h2{
-    font-family: Ker;
+    font-family: Keraleeyam;
     background-color: #5ca54b;
     color: white;
     margin: 0.5%;
@@ -56,7 +51,7 @@ hr{
 
 .Semi{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #434343;
     font-weight: 1;
     letter-spacing: .5px;
@@ -67,7 +62,7 @@ hr{
 
 .SubSemi{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #5ca54b;
     font-weight: 1;
     letter-spacing: 1px;
@@ -78,7 +73,7 @@ hr{
 
 .SubSemi-G{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #5ca54b;
     font-weight: 1;
     letter-spacing: 1px;
@@ -89,7 +84,7 @@ hr{
 
 .SubSemi-M{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #5ca54b;
     font-weight: 1;
     letter-spacing: 1px;
@@ -111,7 +106,7 @@ hr{
 
 
 .data{
-    font-family: Mer;
+    font-family: Meera;
     color: #434343;
     font-size: 20px;
 }
@@ -132,7 +127,7 @@ hr{
 }
 
 .Quotes{
-    font-family: Ker;
+    font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -142,7 +137,7 @@ hr{
 
 .rese{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #434343;
     font-weight: 1;
     letter-spacing: .5px;
@@ -156,7 +151,7 @@ hr{
 
     .Semi{
     
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -167,7 +162,7 @@ hr{
 
     .rese{
     
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -179,7 +174,7 @@ hr{
     
     .SubSemi{
         
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #5ca54b;
         font-weight: 1;
         letter-spacing: 1px;
@@ -190,7 +185,7 @@ hr{
 
 .SubSemi-M{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #5ca54b;
     font-weight: 1;
     letter-spacing: 1px;
@@ -207,7 +202,7 @@ hr{
 
     .Semi{
     
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -218,7 +213,7 @@ hr{
     
     .SubSemi{
         
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #5ca54b;
         font-weight: 1;
         letter-spacing: 1px;
@@ -227,7 +222,7 @@ hr{
     }
 
     .contents h2{
-        font-family: Ker;
+        font-family: Keraleeyam;
         background-color: #5ca54b;
         color: white;
         margin: 0.5%;

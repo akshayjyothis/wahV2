@@ -1,11 +1,8 @@
+@import url('https://smc.org.in/fonts/keraleeyam.css'); 
+    html { 
+        font-family: 'Keraleeyam', sans-serif; 
+    } 
 
-
-@font-face {
-    font-family: 'Ker';
-    src: url('../fonts/Keraleeyam-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face{
     font-family: 'Ver';
@@ -60,7 +57,7 @@
 .nav-items li a{
     text-decoration: none;
     color: white;
-    font-family: Ker;
+    font-family: Keraleeyam;
 }
 
 .burger{
@@ -115,7 +112,7 @@
 }
 
 .contents h2{
-    font-family: Ker;
+    font-family:Keraleeyam;
     background-color: #5ca54b;
     color: white;
     margin: 0.5%;
@@ -136,7 +133,7 @@ hr{
 
 .Semi{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #434343;
     font-weight: 1;
     letter-spacing: .5px;
@@ -147,7 +144,7 @@ hr{
 
 .SubSemi{
     
-    font-family: Ker;
+    font-family: Keraleeyam;
     color: #5ca54b;
     font-weight: 1;
     letter-spacing: 1px;
@@ -183,7 +180,7 @@ display: none;
     
     .Semi{
     
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -194,7 +191,7 @@ display: none;
     
     .SubSemi{
         
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #5ca54b;
         font-weight: 1;
         letter-spacing: 1px;
@@ -297,7 +294,7 @@ display: none;
 
     .Semi{
     
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #434343;
         font-weight: 1;
         letter-spacing: .5px;
@@ -308,7 +305,7 @@ display: none;
     
     .SubSemi{
         
-        font-family: Ker;
+        font-family: Keraleeyam;
         color: #5ca54b;
         font-weight: 1;
         letter-spacing: 1px;
@@ -317,7 +314,7 @@ display: none;
     }
 
     .contents h2{
-        font-family: Ker;
+        font-family: Keraleeyam;
         background-color: #5ca54b;
         color: white;
         margin: 0.5%;
@@ -359,7 +356,7 @@ display: none;
         position: fixed;
         bottom: 0;
         left: 0 color green;
-        font-family: Ker;
+        font-family: Keraleeyam;
         background: #5ca54b;
         width: 100%;
         overflow: scroll;
